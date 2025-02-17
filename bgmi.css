@@ -203,7 +203,9 @@ body{
     margin-top: 109px;
 }
 .yt{
-    margin-left: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .page3{
     margin: 0;
