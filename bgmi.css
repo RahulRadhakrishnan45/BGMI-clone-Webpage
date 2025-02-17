@@ -15,7 +15,7 @@ body{
     font-size: 18px;
     letter-spacing: 0.5px;
     line-height: 70px;
-    margin-top: 6px;
+    margin-top: 20px;
     cursor: pointer;
 }
 #hover:hover{
@@ -36,6 +36,7 @@ body{
     z-index: 999;
     left: 0;
     right: 0;
+    align-items: center;
 }
 .discord-icon:hover{
     content: url(discordHover.png);
@@ -63,11 +64,14 @@ body{
 }
 .store{
     display: flex;
-    margin-top: 16px;
+    align-items: center;
+    margin-top: 3px;
     margin-left: 15px;
     cursor: pointer;
 }
 .logo{
+    display: flex;
+    align-items: center;
     margin-top: 10px;
     margin-left: 10px;
     cursor: pointer;
@@ -94,11 +98,14 @@ body{
  }   
 .btn{
    display: flex;
+   align-items: center;
    gap: 1px;
    margin-left: 15px;
    font-weight: bold;
 }
 .para{
+    display: flex;
+    align-items: center; 
     color: #fff;
     font-size: 120px;
     padding-top: 180px;
@@ -110,9 +117,11 @@ body{
 }
 .btn2{
     padding-left: 85px;
-    margin-top: -40px;
+    padding-top: 41px;
+    margin-top: -90px;
     display: flex;
-    width: 24%;
+    align-items: center;
+    width: 414px;
 }
 #google{
     background: black;
@@ -141,11 +150,13 @@ body{
     height: 250px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding-left: 85px;
     margin-top: 24px;
 }
 #uc{
     height: 50px;
+    width: 412px;
     background: #be4f0d;
     font-size: 27px;
     font-weight:300;
@@ -155,6 +166,7 @@ body{
 }
 #apk{
     height: 50px;
+    width: 412px;
     background: #eca800;
     font-size: 27px;
     margin-top: 5px;
@@ -165,6 +177,7 @@ body{
 .content{
     display: flex;
     flex-direction: column;
+    justify-items: center;
     width: 100%;
     height: 1000px;
     background-image: url(background.png);
