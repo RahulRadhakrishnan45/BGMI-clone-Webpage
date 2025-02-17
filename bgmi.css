@@ -254,8 +254,10 @@ body{
     margin-bottom: 22px;
 }
 .btn4{
-    margin-left: 846px;
-   margin-top: 40px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 3em;
    }
 #btn4{
     background: transparent;
