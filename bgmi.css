@@ -8,13 +8,14 @@ body{
 .menu ul{
     list-style: none;
     display:flex;
-    gap: 31px;
+    gap: 1.5em;
     align-items: center;
     color: grey;
     font-size: 18px;
     letter-spacing: 0.5px;
-    line-height: 70px;
-    margin-top: 20px;
+    line-height: 1.5em;
+    margin: 0;
+    justify-content: flex-end;
     cursor: pointer;
 }
 #hover:hover{
