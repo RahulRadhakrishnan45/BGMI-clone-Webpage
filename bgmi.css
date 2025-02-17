@@ -356,9 +356,10 @@ body{
     background-size: cover;
 }
 .top-logo{
-   margin-left: 892px;
-   padding-top: 55px;
-   margin-right: 893px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3em
 }
 .para2{
     color: #333;
@@ -369,8 +370,9 @@ body{
     margin-top: -10px;
 }
 .btn5{
-    margin-left: 700px;
-    margin-top: -15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #apple1{
     width: 250px;
